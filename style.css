@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 50%;
+    margin: auto;
+    font-size: small;
+    background-color: rgb(228, 255, 255);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+    magine-top: 20px;
+    margin-right: 20px;
+}
+.tittle{
+    flex: 1;
+}
+.name{
+    color: grey;
+
+}
+.coral{
+    color:chocolate;
+}
+.quality{
+    color: brown;
+
+}
+.hrline{
+    border: 1px solid black;
+
+}
+
+.tableheading{
+    min-width: 200px;
+    color: indianred;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+}
+.marginfix{
+    margin-bottom: 20px;
+}
+.course{
+    font-size: 20px;
+    color: darkslategray;
+    margin-bottom: 5px;
+    
+}
+.collegename{
+    font-weight: 500;
+    font-size: 15px;
+    font-style: bold;
+    margin-bottom: 5px;
+}
+.percentage{
+    font-style: italic;
+}
+.discripation{
+    font-size: 12px;
+    margin-top: 15px;
+}
